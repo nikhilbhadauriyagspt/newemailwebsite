@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { 
-  Send, 
-  Lock, 
-  Smartphone, 
-  ShieldCheck, 
-  Paperclip, 
+import {
+  Send,
+  Lock,
+  Smartphone,
+  ShieldCheck,
+  Paperclip,
   Archive,
   ChevronRight,
   BookOpen,
@@ -102,7 +102,7 @@ const GuidesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FAFBFF]">
       <Header />
-      
+
       <main className="py-16 px-6">
         <div className="max-w-[1200px] mx-auto">
           {/* Page Heading */}
@@ -132,9 +132,7 @@ const GuidesPage: React.FC = () => {
                       <p className="text-[#5B6478] font-medium leading-relaxed text-[15px]">
                         Everything you need to know about fixing {guide.title.toLowerCase()} for any email provider.
                       </p>
-                      <button className="flex items-center gap-2 text-[#4F46E5] font-bold text-[14px] hover:underline">
-                        Download PDF Guide <ChevronRight className="w-4 h-4" />
-                      </button>
+
                     </div>
 
                     {/* Right Steps */}
