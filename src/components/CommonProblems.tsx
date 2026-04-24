@@ -7,7 +7,6 @@ import {
   Shield,
   Paperclip,
   Database,
-  ArrowRight,
   ShieldAlert,
   ServerOff,
   UserX,

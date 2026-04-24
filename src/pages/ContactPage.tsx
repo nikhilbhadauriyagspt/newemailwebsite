@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Mail, Phone, MapPin, Clock, Send, MessageSquare, CheckCircle2, X } from "lucide-react";
+import { Mail, Send, MessageSquare, CheckCircle2, X } from "lucide-react";
 
 const ContactPage: React.FC = () => {
   const [showPopup, setShowPopup] = useState(false);

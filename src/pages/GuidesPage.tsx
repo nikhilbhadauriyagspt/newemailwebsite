@@ -118,7 +118,7 @@ const GuidesPage: React.FC = () => {
 
           {/* Detailed Guides List */}
           <div className="grid gap-12">
-            {guides.map((guide, index) => {
+            {guides.map((guide) => {
               const Icon = guide.icon;
               return (
                 <div key={guide.id} className="bg-white rounded-[32px] border border-[#EEF0FA] p-8 md:p-12 shadow-sm hover:shadow-md transition-shadow">

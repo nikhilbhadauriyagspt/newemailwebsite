@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Mail, Headphones } from "lucide-react";
+import { Headphones } from "lucide-react";
 
 const Header: React.FC = () => {
   const location = useLocation();

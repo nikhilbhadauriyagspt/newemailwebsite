@@ -66,13 +66,13 @@ const GuideDetail: React.FC = () => {
                   {section.heading}
                 </h2>
                 
-                {section.content && (
+                {('content' in section) && section.content && (
                   <p className="text-[#5B6478] font-medium leading-7 mb-6">
                     {section.content}
                   </p>
                 )}
 
-                {section.steps && (
+                {('steps' in section) && section.steps && (
                   <div className="grid gap-4">
                     {section.steps.map((step, sIndex) => (
                       <div key={sIndex} className="flex items-start gap-4 bg-[#FAFBFF] p-5 rounded-xl border border-[#EEF0FA]">

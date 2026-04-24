@@ -4,7 +4,7 @@ import { BookOpen, Users, ShieldCheck } from "lucide-react";
 
 const Hero: React.FC = () => {
   const navigate = useNavigate();
-  
+
   const badges = [
     {
       icon: BookOpen,
@@ -37,11 +37,11 @@ const Hero: React.FC = () => {
   return (
     <section id="home" className="relative overflow-hidden h-screen flex items-center px-6">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/banner/banner-1.png')" }}
       />
-      
+
       {/* Optional Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-white/10 z-0" />
 
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
         {/* Left Content */}
         <div className="relative pt-6 max-w-[700px] mx-auto lg:mx-0">
           <h2 className="text-[32px] md:text-[48px] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#0F1B3D]">
-            Email Issues?
+            <span className="text-[32px] md:text-[60px]">  Email</span>
             <br />
             <span className="text-[#4F46E5]">We Understand.</span>
             <br />
@@ -57,19 +57,19 @@ const Hero: React.FC = () => {
           </h2>
 
           <p className="mt-5 text-[16px] leading-7 text-[#5B6478] max-w-[500px] font-medium mx-auto lg:mx-0">
-            Find clear explanations and easy solutions for common email problems.
+            Find clear explanations and easy guides for common email problems.
             Fix issues fast and keep your communication smooth and secure.
           </p>
 
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4">
-            <button 
+            <button
               onClick={handleExploreSolutions}
               className="h-[52px] px-9 rounded-xl bg-[#4F46E5] text-white text-[14px] font-extrabold shadow-lg shadow-indigo-200 hover:bg-[#4338CA] hover:-translate-y-0.5 transition-all"
             >
               Explore Solutions
             </button>
-            <button 
+            <button
               onClick={handleViewGuides}
               className="h-[52px] px-9 rounded-xl bg-white border-2 border-[#E7E9F5] text-[#0F1B3D] text-[14px] font-extrabold hover:bg-slate-50 hover:border-[#4F46E5] hover:-translate-y-0.5 transition-all"
             >
