@@ -1,0 +1,303 @@
+Create a complete React + Tailwind CSS homepage for an “Email Help Center” website.
+
+Goal:
+Build a clean, modern, user-friendly email issue help website. The UI should match a soft SaaS/help-center style: simple, light, premium, not heavy, not crowded. No brand names of email providers anywhere.
+
+Tech:
+- React component
+- Tailwind CSS
+- Use lucide-react icons
+- Responsive for desktop, tablet, mobile
+- Use clean reusable sections
+- Use placeholder image paths where image is needed
+- Do not use fake brand logos
+- Do not use Gmail, Outlook, Yahoo, Microsoft, Google, Apple names
+
+Color Theme:
+- Background: #F7F8FF or #FAFBFF
+- Primary: #4F46E5
+- Secondary: #6D5DFB
+- Dark navy text: #0F1B3D
+- Muted text: #5B6478
+- Card border: #E7E9F5
+- Footer: #0E2347
+- Accent colors for icons: violet, blue, mint, peach, pink, teal
+
+Website Name:
+Email Help Center
+
+Header:
+Left logo:
+- Envelope icon
+- Text: Email Help Center
+- Small tagline: Simple Solutions. Better Connection.
+
+Navigation:
+Home
+All Issues
+Solutions
+Guides
+FAQ
+Contact Us
+
+Right button:
+Get Help
+
+Hero Section:
+Layout:
+- Left side content
+- Right side image
+- Left side must have text and search
+- Right side use image placeholder:
+  /images/email-hero-user.png
+  Image description: a confused young woman using laptop, email issue icons floating around, clean office setup, no text inside image.
+
+Hero content:
+Heading:
+Email Issues?
+We Understand.
+We Help. You Stay Connected.
+
+Paragraph:
+Find clear explanations and easy solutions for common email problems. Fix issues fast and keep your communication smooth and secure.
+
+Search bar placeholder:
+Search your email issue...
+
+Hero small trust badges:
+1. Easy to Follow — Step-by-step guides
+2. Works for Everyone — For all email users
+3. Safe & Secure — Privacy-focused help
+
+Section 1: Common Email Problems
+Heading:
+Common Email Problems
+
+Subheading:
+Explore issues by category and find the right solution for you.
+
+Create 7 cards in one clean grid:
+1. Can’t Send Emails
+Description: Emails stuck in outbox, sending failed, or message not delivered.
+Icon: send
+
+2. Can’t Receive Emails
+Description: Inbox not updating, new emails missing, or delivery delay.
+Icon: inbox
+
+3. Login Problems
+Description: Wrong password, account locked, or sign-in loop.
+Icon: lock
+
+4. Email Not Syncing
+Description: Emails not updating across devices or apps.
+Icon: refresh
+
+5. Spam & Junk Issues
+Description: Important emails going to junk or too many spam messages.
+Icon: shield
+
+6. Attachment Issues
+Description: Files not uploading, downloading, opening, or sending.
+Icon: paperclip
+
+7. Storage Full
+Description: Mailbox full, unable to receive new emails.
+Icon: database/server
+
+Button under cards:
+View All Email Issues
+
+Section 2: Why Email Issues Happen
+Heading:
+Why Email Issues Happen
+
+Left text:
+Understanding the reason behind an issue is the first step to fixing it.
+
+Create 6 compact reason items:
+1. Incorrect Settings
+2. Weak or Changed Password
+3. Poor Internet Connection
+4. Full Mailbox Storage
+5. Outdated App or Browser
+6. Security Filters or Blocked Access
+
+Section 3: How to Fix Email Problems
+Heading:
+How to Fix Email Problems
+
+Subheading:
+Follow these simple steps to resolve most email issues easily.
+
+Create horizontal step process with 6 steps:
+Step 1: Identify the Issue
+Text: Check whether the problem is related to sending, receiving, login, sync, security, or settings.
+
+Step 2: Check Connection & Device
+Text: Ensure your internet is working and try another device or browser.
+
+Step 3: Review Settings
+Text: Check email server, sync, filters, forwarding rules, and account settings.
+
+Step 4: Update App/Browser
+Text: Use the latest version for better performance and fewer errors.
+
+Step 5: Secure Your Account
+Text: Change password, verify recovery info, and review account activity.
+
+Step 6: Test Again
+Text: Send a test email, refresh inbox, and confirm everything is fixed.
+
+Section 4: Detailed Issue Guides
+Heading:
+Detailed Issue Guides
+
+Subheading:
+Learn more about each issue and how to fix it.
+
+Create 6 guide cards with simple illustration placeholders:
+1. Sending & Receiving Issues
+Image: /images/guide-send-receive.png
+Text: Fix problems related to sending failures, delivery delays, and outbox issues.
+
+2. Login & Password Issues
+Image: /images/guide-login.png
+Text: Resolve login errors, password issues, account locks, and verification problems.
+
+3. Sync & Device Issues
+Image: /images/guide-sync.png
+Text: Fix email not syncing across devices, apps, or browsers.
+
+4. Security & Privacy Issues
+Image: /images/guide-security.png
+Text: Handle security alerts, blocked access, suspicious activity, and recovery problems.
+
+5. Attachment & File Issues
+Image: /images/guide-attachment.png
+Text: Solve attachment not opening, sending, file size, or format errors.
+
+6. Inbox & Storage Issues
+Image: /images/guide-storage.png
+Text: Manage full mailbox, missing emails, folder issues, and storage limits.
+
+Each card button:
+Read More →
+
+Section 5: Safe, Simple & Trusted Guidance
+Heading:
+Safe, Simple & Trusted Guidance
+
+Create 6 feature cards:
+1. No Brand Confusion
+Text: We provide solutions without any brand bias.
+
+2. Step-by-Step Help
+Text: Easy guides with simple instructions.
+
+3. Privacy Focused
+Text: Your data and privacy are always important.
+
+4. Beginner Friendly
+Text: Designed for all users, even non-technical.
+
+5. Covers All Issues
+Text: Solutions for common email problems.
+
+6. Always Updated
+Text: Guides updated regularly for accuracy.
+
+Section 6: FAQ
+Heading:
+Frequently Asked Questions
+
+Use accordion style UI with plus icon.
+
+FAQs:
+1. Why am I not receiving emails?
+Answer: It may happen due to storage limits, spam filters, sync issues, blocked senders, or incorrect settings.
+
+2. Why are my emails going to spam?
+Answer: Filters, sender reputation, mailbox rules, or message content can move emails to spam.
+
+3. Why can’t I log in to my email?
+Answer: Password changes, account locks, verification issues, or suspicious activity alerts can cause login problems.
+
+4. Why are attachments not opening?
+Answer: The file may be too large, unsupported, blocked, or your browser or app may need updating.
+
+5. Why is email loading slow?
+Answer: Large inbox size, slow internet, outdated apps, or too many browser extensions can cause slow loading.
+
+6. How can I secure my email account?
+Answer: Use a strong password, update recovery details, review login activity, and avoid suspicious links.
+
+Final CTA Section:
+Background: purple/indigo gradient
+Left illustration placeholder:
+/images/email-cta.png
+
+Heading:
+Still Need Help With Your Email Issue?
+
+Text:
+We’re here to help you understand the issue and get your email working again.
+
+Button:
+Explore Solutions →
+
+Footer:
+Dark navy background.
+
+Columns:
+1. Brand:
+Email Help Center
+Text: Helping users understand and resolve email problems with simple and effective solutions.
+Social icons placeholder.
+
+2. Quick Links:
+Home
+All Issues
+Solutions
+Guides
+Contact Us
+
+3. Popular Issues:
+Can’t Send Emails
+Login Problems
+Sync Issues
+Spam Problems
+Storage Issues
+
+4. Help Center:
+FAQ
+Email Settings
+Account Security
+Troubleshooting
+Guides
+
+5. Contact Us:
+Email: support@emailhelpcenter.com
+Live Chat: Available 24/7
+
+Footer bottom:
+© 2024 Email Help Center. All rights reserved.
+Privacy Policy | Terms of Use
+
+UI Style:
+- Max width container around 1600px
+- Lots of white space
+- Rounded cards: rounded-2xl
+- Soft shadows only
+- Thin borders
+- Light background sections
+- Modern typography
+- Cards should not look crowded
+- Avoid too much text in one place
+- Use icons with pastel circular backgrounds
+- Hero should feel spacious
+- Mobile layout should stack nicely
+- Keep overall look similar to modern SaaS help center homepage
+
+Important:
+Use clean production-ready React code. Keep all content exactly as written above. Do not add email provider brand names. Do not make the UI too heavy. Use image placeholders where images are needed and mention at the end which image files I need to upload.
