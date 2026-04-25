@@ -89,12 +89,21 @@ const Footer: React.FC = () => {
         <div className="pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-white/45 font-medium">
           <p>© 2024 Mail Yaga. All rights reserved.</p>
 
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
-            <Link to="/terms-of-use" className="hover:text-white transition-colors">
-              Terms of Use
+            <Link to="/terms-of-service" className="hover:text-white transition-colors">
+              Terms of Service
+            </Link>
+            <Link to="/cookie-policy" className="hover:text-white transition-colors">
+              Cookie Policy
+            </Link>
+            <Link to="/refund-policy" className="hover:text-white transition-colors">
+              Refund Policy
+            </Link>
+            <Link to="/disclaimer" className="hover:text-white transition-colors">
+              Disclaimer
             </Link>
           </div>
         </div>
