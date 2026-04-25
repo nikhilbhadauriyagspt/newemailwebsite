@@ -8,7 +8,6 @@ import {
   ShieldCheck,
   Paperclip,
   Archive,
-  ChevronRight,
   BookOpen,
   CheckCircle2
 } from "lucide-react";
