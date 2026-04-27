@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
             <br />
             <span className="text-[#4F46E5]">We Understand.</span>
             <br />
-            We Help. You Stay Connected.
+            You Stay Connected.
           </h2>
 
           <p className="mt-5 text-[16px] leading-7 text-[#5B6478] max-w-[500px] font-medium mx-auto lg:mx-0">

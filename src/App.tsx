@@ -12,15 +12,19 @@ import CookiePolicy from './pages/policies/CookiePolicy';
 import RefundPolicy from './pages/policies/RefundPolicy';
 import Disclaimer from './pages/policies/Disclaimer';
 
+import CookieConsent from './pages/CookieConsent';
+
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
+
         <Route path="/" element={<HomePage />} />
         <Route path="/guides" element={<GuidesPage />} />
         <Route path="/guides/:id" element={<GuideDetail />} />
         <Route path="/contact" element={<ContactPage />} />
-        
+
+
         {/* Policy Routes */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
@@ -28,6 +32,7 @@ const App: React.FC = () => {
         <Route path="/refund-policy" element={<RefundPolicy />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
+      <CookieConsent />
     </BrowserRouter>
   );
 };

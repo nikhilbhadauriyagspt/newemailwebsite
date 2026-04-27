@@ -71,7 +71,7 @@ const Header: React.FC = () => {
           className="hidden sm:flex items-center gap-2 bg-[#4F46E5] text-white px-5 py-2.5 rounded-lg text-[13px] font-bold shadow-sm hover:bg-[#4338CA] transition-all"
         >
           <Headphones className="w-4 h-4" />
-          Get Help
+          Contact us
         </Link>
       </div>
     </header>

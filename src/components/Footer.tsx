@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
               to="/contact"
               className="mt-5 inline-flex items-center justify-center h-[42px] px-5 rounded-md bg-white text-[#4F46E5] text-[13px] font-extrabold hover:shadow-lg transition-all"
             >
-              Get Help
+              Contact Us
             </Link>
           </div>
         </div>
